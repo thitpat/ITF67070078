@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.avatar {
+    width: 183px;
+    height: 183px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.notification {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.username {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.username:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.input-field{
+    border: none;
+    background-color: #eeee;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-field:focus{
+    border: 1px solid;
+}
+
+.btn{
+    background: rgb(0, 132, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+}
+
+.btn:hover{
+    background: rgb(76, 0, 255);
+}
+
+.form-add{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-add h4{
+    font-weight: 200;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="div.css">
+</head>
+<body>
+    <h1>
+        <span class="username" id="username">Thitiphat Nontaphet</span> Phone Book
+    </h1>
+    <div class="avatar" id="avatar">
+        <div class="notification">1</div>
+    </div>
+    
+    <div>
+        <label for="">Set the Username </label>
+        <input class="input-field"  type="text" id="usernameInput" placeholder="Enter Username">
+        <button class="btn" onclick="setUsername()">SET</button>
+    </div>
+    <div>
+        <label for="">Set the profile image URL </label>
+        <input class="input-field" type="text" id="avatarInput" placeholder="Enter Image URL">
+        <button class="btn" onclick="setAvatar()">SET</button>
+    </div>
+    
+    <div class="form-add">
+        <h4>Phone Number List</h4>
+        <input class="input-field" type="text" id="nameInput" placeholder="Name">
+        <input class="input-field" type="tel" id="phoneInput" placeholder="Phone Number">
+        <button class="btn" onclick="addContact()">ADD</button>
+        <button class="btn" onclick="exportContacts()">EXPORT</button>
+    </div>
+    
+    <table id="contactTable">
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Phone Number</th>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
